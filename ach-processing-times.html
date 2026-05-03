@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACH Processing Times Explained | BusinessDayRules.com</title>
+  <meta name="description" content="How ACH payments move between banks, processing vs. posting, same-day ACH windows, and why ACH transfers take 1–3 business days.">
+  <link rel="canonical" href="https://businessdayrules.com/ach-processing-times.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7744853829365165" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"ACH Processing Times Explained","description":"How ACH payments work, processing vs. posting, same-day ACH windows, and typical settlement timing.","url":"https://businessdayrules.com/ach-processing-times.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://businessdayrules.com/ach-processing-times.html"},"author":{"@type":"Organization","name":"BusinessDayRules.com","url":"https://businessdayrules.com"},"publisher":{"@type":"Organization","name":"BusinessDayRules.com","url":"https://businessdayrules.com","logo":{"@type":"ImageObject","url":"https://businessdayrules.com/favicon.svg"}},"isPartOf":{"@type":"WebSite","name":"BusinessDayRules.com","url":"https://businessdayrules.com"}}
+  </script>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><a href="index.html" class="site-logo">BusinessDayRules.com <span class="logo-badge">Reference</span></a><button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.site-nav').classList.toggle('open')">☰</button><nav class="site-nav"><a href="index.html">Home</a><a href="index.html#reference-topics">Reference Topics</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></div></header>
+<div class="disclaimer-bar"><strong>Informational reference only.</strong> ACH timing varies by bank and transaction type. This site does not provide banking advice. Verify timing with your institution.</div>
+
+<section class="page-hero-sm"><div class="container">
+  <div style="font-family:var(--font-mono);font-size:0.72rem;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">ACH Processing Reference</div>
+  <h1>ACH Processing Times</h1>
+  <p>How ACH payments actually move, why "1–3 business days" is the standard answer, and when same-day ACH applies.</p>
+</div></section>
+
+<main class="main-content"><div class="container">
+  <nav class="breadcrumb"><a href="index.html">Home</a> / <span>ACH Processing Times</span></nav>
+  <div class="layout-with-sidebar">
+    <article class="article-prose">
+
+      <h2>What Is ACH?</h2>
+      <p>ACH stands for <strong>Automated Clearing House</strong> — the electronic payment network operated by Nacha (formerly NACHA, the National Automated Clearing House Association). ACH handles direct deposits, bill payments, person-to-person transfers, and business-to-business payments in the United States.</p>
+      <p>When your employer sends your paycheck via direct deposit, or you pay a bill online from your checking account, that transaction moves through the ACH network.</p>
+
+      <h2>Processing vs. Posting</h2>
+      <p>These two terms describe different stages:</p>
+      <ul>
+        <li><strong>Processing</strong> — The ACH network receives the transaction file, validates it, and the Federal Reserve settles the funds between the sending and receiving banks. This happens on business days only.</li>
+        <li><strong>Posting</strong> — The receiving bank applies the funds to your account and makes them available. This can happen after processing completes, sometimes the next morning.</li>
+      </ul>
+      <p>A payment can be "processed" on Monday but not "posted" to your account until Tuesday morning. This is why "1–3 business days" is the standard ACH timing estimate — it includes both processing and posting.</p>
+
+      <h2>Standard ACH Timing</h2>
+      <div class="ref-table-wrap">
+        <table>
+          <thead><tr><th>Step</th><th>Timing</th><th>Business Day Required?</th></tr></thead>
+          <tbody>
+            <tr><td>Originator submits</td><td>Any time</td><td>No (but processing waits for business day)</td></tr>
+            <tr><td>ODFI sends to ACH</td><td>Next processing window</td><td>Yes</td></tr>
+            <tr><td>Fed settles transaction</td><td>Same or next business day</td><td>Yes</td></tr>
+            <tr><td>RDFI receives and posts</td><td>Next business day after settlement</td><td>Yes</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>ODFI</strong> = Originating Depository Financial Institution (sender's bank). <strong>RDFI</strong> = Receiving Depository Financial Institution (recipient's bank).</p>
+
+      <h2>Same-Day ACH</h2>
+      <p>Nacha introduced same-day ACH processing to speed up certain transactions. Under same-day ACH, transactions submitted before specific deadlines can be processed and settled on the same business day.</p>
+      <p>Same-day ACH has multiple submission windows per business day. The exact windows and cutoff times are set by Nacha rules, but each bank chooses whether to participate and may set its own earlier cutoffs for same-day submissions.</p>
+
+      <div class="warning-box">
+        <p><strong>Same-day ACH does not mean instant.</strong> Even same-day ACH requires submission before a cutoff time, and posting may still occur the following morning. It is faster than standard ACH but not real-time.</p>
+      </div>
+
+      <h2>ACH and Business Days</h2>
+      <p>ACH processing occurs only on business days. The Federal Reserve settles ACH transactions, and the Fed is closed on weekends and <a href="federal-holidays-business-days.html">federal holidays</a>. A transaction submitted on Friday after the cutoff, or any time on Saturday or Sunday, will not begin processing until Monday (or Tuesday if Monday is a holiday).</p>
+
+      <div class="example-block">
+        <div class="example-label">Timing Example</div>
+        <p>You authorize a bill payment on <strong>Thursday evening</strong> after your bank's cutoff:</p>
+        <ul>
+          <li><strong>Friday</strong> — Transaction begins processing (first business day)</li>
+          <li><strong>Friday – Monday</strong> — Federal Reserve settles</li>
+          <li><strong>Monday</strong> — Receiving bank posts funds to recipient's account</li>
+        </ul>
+        <p>Total: approximately 2 business days from authorization, or 4 calendar days (Thu → Mon).</p>
+      </div>
+
+      <h2>What Affects ACH Speed</h2>
+      <ul>
+        <li><strong>Submission timing</strong> — Before or after the <a href="bank-cutoff-times-explained.html">cutoff time</a></li>
+        <li><strong>Weekends and holidays</strong> — No processing on non-business days</li>
+        <li><strong>Bank-specific processing schedules</strong> — Some banks process more frequently than others</li>
+        <li><strong>Transaction type</strong> — Credits (direct deposits) and debits may follow different timelines</li>
+        <li><strong>Risk review</strong> — Some transactions are held for fraud screening</li>
+      </ul>
+
+      <h2>Official Source</h2>
+      <p>ACH rules and same-day ACH windows are governed by Nacha. The Federal Reserve publishes its processing schedules at federalreserve.gov. Individual bank processing times are available from each institution.</p>
+
+      <div class="calc-links">
+        <div class="calc-links-label">Check your timing</div>
+        <ul>
+          <li><a href="https://bankcutoffchecker.com" target="_blank" rel="noopener noreferrer">Check bank cutoff times →</a></li>
+        </ul>
+      </div>
+
+    </article>
+    <aside>
+      <div class="sidebar-box"><h4>Other Reference Articles</h4><ul>
+        <li><a href="what-is-a-business-day.html">What Is a Business Day</a></li>
+        <li><a href="federal-holidays-business-days.html">Federal Holidays</a></li>
+        <li><a href="bank-cutoff-times-explained.html">Bank Cutoff Times</a></li>
+        <li><a href="weekend-holiday-payment-delays.html">Payment Delays</a></li>
+      </ul></div>
+      <div class="sidebar-box" style="margin-top:1rem;"><h4>Key Terms</h4><ul>
+        <li style="border-bottom:1px solid var(--rule-line);padding:0.4rem 0;font-size:0.85rem;"><strong>ACH</strong> — Automated Clearing House payment network</li>
+        <li style="border-bottom:1px solid var(--rule-line);padding:0.4rem 0;font-size:0.85rem;"><strong>Nacha</strong> — Organization that governs ACH rules</li>
+        <li style="border-bottom:1px solid var(--rule-line);padding:0.4rem 0;font-size:0.85rem;"><strong>ODFI</strong> — Originating bank (sender)</li>
+        <li style="border-bottom:1px solid var(--rule-line);padding:0.4rem 0;font-size:0.85rem;"><strong>RDFI</strong> — Receiving bank (recipient)</li>
+        <li style="padding:0.4rem 0;font-size:0.85rem;"><strong>Settlement</strong> — Fed moves funds between banks</li>
+      </ul></div>
+    </aside>
+  </div>
+</div></main>
+
+<div class="trust-strip">All content is for general informational purposes only. Not legal, financial, or banking advice. ACH timing varies by bank and transaction type.</div>
+
+<footer class="site-footer"><div class="footer-inner"><div class="footer-grid">
+  <div class="footer-col"><h4>About</h4><p>BusinessDayRules.com explains US business day rules, federal holidays, bank cutoff times, and payment processing delays. Informational purposes only.</p><p>Contact: <a href="mailto:partnerships@calc-hq.com" style="color:rgba(255,255,255,0.6)">partnerships@calc-hq.com</a></p><span class="footer-resource-link">Part of the <a href="https://calc-hq.com" target="_blank" rel="noopener noreferrer">Calc-HQ Network</a></span></div>
+  <div class="footer-col"><h4>Reference Articles</h4><ul><li><a href="what-is-a-business-day.html">What Is a Business Day</a></li><li><a href="federal-holidays-business-days.html">Federal Holidays</a></li><li><a href="bank-cutoff-times-explained.html">Bank Cutoff Times</a></li><li><a href="ach-processing-times.html">ACH Processing Times</a></li><li><a href="weekend-holiday-payment-delays.html">Payment Delays</a></li></ul></div>
+  <div class="footer-col"><h4>Site Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="faq.html">FAQ</a></li><li><a href="contact.html">Contact</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="legal.html">Legal Disclaimer</a></li></ul></div>
+  <div class="footer-col"><h4>Related Tools</h4><ul id="footer-related-tools-list"><li><span style="color:rgba(255,255,255,0.3);font-size:0.82rem">Loading…</span></li></ul></div>
+</div><div class="footer-bottom"><span>© 2026 BusinessDayRules.com. For informational purposes only.</span><span><a href="privacy.html">Privacy</a> · <a href="legal.html">Legal</a> · <a href="sitemap.xml">Sitemap</a></span></div></div></footer>
+<script src="network.js"></script>
+</body></html>
